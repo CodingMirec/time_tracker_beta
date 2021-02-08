@@ -1,0 +1,53 @@
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(51, 98, 251);
+  height: 100vh;
+}
+
+.register__window {
+  display: flex;
+  align-items: center;
+  min-width: 500px;
+  max-width: 1300px;
+  max-height: 1000px;
+  margin: 70px;
+  padding: 30px 50px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.register__form {
+  flex: 0.5;
+  padding: 0 10px;
+}
+
+.form__description {
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > label {
+  margin-bottom: 2px;
+  color: rgb(85, 85, 85);
+}
+
+form > input {
+  margin-bottom: 6px;
+}
+
+.register__button {
+  margin-top: 15px;
+  max-width: 100px;
+}
+
+.register__image {
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+}
