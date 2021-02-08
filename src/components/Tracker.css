@@ -1,0 +1,59 @@
+.tracker {
+  flex: 1;
+  background-color: rgb(211, 211, 211);
+}
+
+.container {
+  padding: 20px;
+}
+
+.tracker__top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 4px 7px;
+}
+
+.tracker__left {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+}
+
+.tracker__input {
+  border: none;
+  flex: 1;
+}
+
+.tracker__right {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 300px;
+  flex: 0.3;
+}
+
+.tracker__projectInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.tracker__projectSettings {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tracker__projectSettings:hover {
+  cursor: pointer;
+}
+
+.tracker__button {
+  color: #fff;
+  background-color: #3f51b5;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
