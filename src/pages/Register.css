@@ -9,9 +9,12 @@
 .register__window {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   min-width: 500px;
-  max-width: 1300px;
-  max-height: 1000px;
+  width: 100vh;
+  max-width: 1200px;
+  height: 100vh;
+  max-height: 500px;
   margin: 70px;
   padding: 30px 50px;
   background-color: #fff;
@@ -47,7 +50,8 @@ form > input {
 }
 
 .register__image {
-  object-fit: contain;
+  object-fit: cover;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
