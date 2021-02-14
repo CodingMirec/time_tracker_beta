@@ -24,7 +24,7 @@ function Register() {
         <div className="register__form">
           <div className="form__description">
             <h2>Create Account</h2>
-            <p>A new Account for a new Action</p>
+            <p>A new Account for a new Action.</p>
           </div>
           <form method="" action="">
             <label htmlFor="name">Full Name</label>
@@ -55,13 +55,20 @@ function Register() {
             <button className="register__button" onClick={register}>
               Register
             </button>
+            <Link to="/login" className="register__link">
+              Already Registered?
+            </Link>
           </form>
         </div>
         <div className="register__image">
-          <h2 className="">Welcome to the club</h2>
+          <div className="image__headline">
+            <h3>Join us today!</h3>
+            <p>Where your plans and goals become reality.</p>
+          </div>
+
           <img
-            src="https://cdn.dribbble.com/users/1346977/screenshots/7112868/media/a5b007aa79a3d328052b9d443465f420.png?compress=1&resize=400x400"
-            alt=""
+            src="https://scontent.xx.fbcdn.net/v/t1.15752-0/p403x403/148002929_413839449689749_1907044659413814928_n.png?_nc_cat=105&ccb=3&_nc_sid=aee45a&_nc_ohc=6ddF5i5lwnMAX_mU4PE&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_tp=30&oh=8c94003280c93819a17a0f8f524bd2c8&oe=6049E10B"
+            alt="someimage"
           />
         </div>
       </div>
