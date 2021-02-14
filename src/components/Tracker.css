@@ -30,7 +30,6 @@
   display: flex;
   justify-content: flex-end;
   min-width: 300px;
-  flex: 0.3;
 }
 
 .tracker__projectInfo {
@@ -51,9 +50,20 @@
   cursor: pointer;
 }
 
-.tracker__button {
+.tracker__startButton {
   color: #fff;
   background-color: #3f51b5;
-  padding: 5px 8px;
+  padding: 8px;
   border-radius: 5px;
+  border: none;
+  width: 80px;
+}
+
+.tracker__endButton {
+  color: #fff;
+  background-color: red;
+  padding: 8px;
+  border-radius: 5px;
+  width: 80px;
+  border: none;
 }
