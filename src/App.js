@@ -1,11 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Settings from "./pages/Settings";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Register />
           </Route>
           <Route path="/settings">
-            <Link to="/register">Register</Link>
+            <Settings />
           </Route>
           <Route path="/">
             <Home />
