@@ -22,11 +22,12 @@ function Login() {
         <div className="login__form">
           <div className="form__description">
             <h2>Login Now</h2>
-            <p>The Account is Ready for You.</p>
+            <p>The Account is Ready for You</p>
           </div>
           <form method="" action="">
             <label htmlFor="email">Email Address</label>
             <input
+              className="form__input"
               type="email"
               name="email"
               value={email}
@@ -34,11 +35,19 @@ function Login() {
             />
             <label htmlFor="password">Password</label>
             <input
+              className="form__input"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-
+            <label>
+              <input
+                className="login__rememberMe"
+                type="checkbox"
+                name="rememberMe"
+              />
+              Remember Me
+            </label>
             <button className="login__button" onClick={login}>
               Login
             </button>

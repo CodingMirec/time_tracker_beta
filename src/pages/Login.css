@@ -37,7 +37,7 @@
 
 .form__description p {
   color: rgb(85, 85, 85);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 form {
@@ -50,15 +50,28 @@ form > label {
   color: rgb(85, 85, 85);
 }
 
-form > input {
+.form__input {
   margin-bottom: 15px;
   height: 25px;
   font-size: 15px;
   max-width: 250px;
+  border: none;
+  border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+.form__input:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(51, 98, 251);
+}
+
+.login__rememberMe {
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 1px;
 }
 
 .login__button {
-  margin-top: 30px;
+  margin-top: 20px;
   max-width: 120px;
   height: 40px;
   background-color: rgb(51, 98, 251);

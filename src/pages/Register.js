@@ -24,17 +24,19 @@ function Register() {
         <div className="register__form">
           <div className="form__description">
             <h2>Create Account</h2>
-            <p>A new Account for a new Action.</p>
+            <p>A new Account for a new Action</p>
           </div>
           <form method="" action="">
             <label htmlFor="name">Full Name</label>
             <input
+              className="form__input"
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
             <label htmlFor="email">Email Address</label>
             <input
+              className="form__input"
               type="email"
               name="email"
               value={email}
@@ -42,12 +44,14 @@ function Register() {
             />
             <label htmlFor="password">Password</label>
             <input
+              className="form__input"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
             />
-            <label htmlFor="password">Password</label>
+            <label htmlFor="password">Confirm Password</label>
             <input
+              className="form__input"
               type="password"
               value={password2}
               onChange={(e) => setPassword2(e.target.value)}
