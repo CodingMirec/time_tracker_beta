@@ -9,7 +9,13 @@ function Settings() {
   return (
     <div className="settings">
       <Sidebar />
-      <Link to="/register">Register</Link>
+      <Link to="/login">logout</Link>
+      <div className="settings__side">
+        <div className="account__info">
+          <div className="account__photo"></div>
+        </div>
+        <div className="account__settings">some acc settings</div>
+      </div>
     </div>
   );
 }
