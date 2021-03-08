@@ -1,3 +1,12 @@
 .settings {
   display: flex;
 }
+
+.settings__container {
+  padding: 5px 10px;
+}
+
+.user__info {
+  display: flex;
+  justify-content: space-between;
+}
