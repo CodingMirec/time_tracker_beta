@@ -36,7 +36,7 @@ function Tracker() {
 
   return (
     <div className="tracker">
-      <div className="container">
+      <div className="tracker__container">
         <div className="tracker__top">
           <div className="tracker__left">
             <input
@@ -49,7 +49,7 @@ function Tracker() {
           <div className="tracker__right">
             <div className="tracker__projectInfo">
               <select name="project" className="tracker__addProject">
-                <option value="none" selected>
+                <option value="none" defaultValue>
                   Add Project
                 </option>
                 <option value="London">London</option>
