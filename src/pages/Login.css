@@ -80,6 +80,11 @@ form > label {
   border: none;
 }
 
+.login__button:hover {
+  cursor: pointer;
+  background-color: rgb(27, 80, 255);
+}
+
 .login__link {
   text-decoration: none;
   color: #3362fb;
