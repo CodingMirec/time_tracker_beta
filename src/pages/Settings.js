@@ -46,7 +46,7 @@ function Settings() {
             <div className="user__changes">
               <div className="change__email">
                 <h3>Change User Email</h3>
-                <form>
+                <form className="change__form">
                   <input
                     name="email"
                     type="email"
@@ -59,7 +59,7 @@ function Settings() {
                     required
                     placeholder="Password"
                   />
-                  <button>Change Email</button>
+                  <button>Save it</button>
                 </form>
                 <p>
                   Here, You can change your old email for some new, without any
@@ -69,7 +69,7 @@ function Settings() {
               <hr />
               <div className="change__password">
                 <h3>Change User Password</h3>
-                <form>
+                <form className="change__form">
                   <input
                     name="password"
                     type="password"
@@ -82,7 +82,7 @@ function Settings() {
                     required
                     placeholder="New Password"
                   />
-                  <button>Change Email</button>
+                  <button>Save it</button>
                 </form>
                 <p>
                   Change Your old, annoying password that You always forget to
@@ -90,17 +90,21 @@ function Settings() {
                 </p>
               </div>
               <hr />
-              <div className="change__notification">
-                <input type="checkbox" />
-                <label htmlFor="notif__user">
-                  I want to receive email notofication when I change my user
-                  settings.
-                </label>
-                <input type="checkbox" />
-                <label htmlFor="notif__project">
-                  I want to receive emial notification when I am added to new
-                  Project group.
-                </label>
+              <div className="change__notif">
+                <div className="notif__choice">
+                  <input type="checkbox" />
+                  <label htmlFor="notif__user">
+                    I want to receive email notofication when I change my user
+                    settings.
+                  </label>
+                </div>
+                <div className="notif__choice">
+                  <input type="checkbox" />
+                  <label htmlFor="notif__project">
+                    I want to receive emial notification when I am added to new
+                    Project group.
+                  </label>
+                </div>
               </div>
             </div>
           </div>
